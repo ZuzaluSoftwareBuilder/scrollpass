@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@noir-lang/backend_barretenberg": "^0.33.0",
+        "@noir-lang/noir_js": "^0.33.0",
+        "@noir-lang/noir_wasm": "^0.33.0",
+        "ethers": "^6.13.4",
+        "next": "latest",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "sindri": "^0.0.1-alpha.61",
+        "wagmi": "^2.12.25"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
